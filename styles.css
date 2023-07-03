@@ -1,0 +1,102 @@
+html {
+    margin: auto;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+    display: grid;
+    grid-template-columns: 0.4fr 1fr 0.4fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    background-color: #F8F6F4;
+}
+
+.pageMiddle {
+    margin-top:13%;
+    box-shadow: -13px 15px 30px -4px rgba(0,0,0,0.1);
+    grid-area: 2 / 2 / 3 / 3;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+}
+
+.left-side {
+    grid-area: 1 / 1 / 2 / 2;
+    background-color: white;
+}
+
+.right-side {
+    grid-area: 1 / 2 / 2 / 3;
+    background-color: #9DBF9E;
+}
+
+.leftside-content {
+    padding: 8% 7%;
+}
+
+.fa {
+    color: white;
+}
+
+.signin-text {
+    color: #6B9E6C;
+    text-decoration: none;
+}
+
+h2 {
+    font-weight: 500;
+    padding: 0;
+    margin: 0;
+    padding-bottom:0.3rem ;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+    color: #434242;
+}
+
+.right-side > p {
+    color: white;
+}
+
+.tag-line {
+    font-size: 1rem;
+    margin-bottom: 1.4rem;
+    opacity: 0.9;
+}
+
+.form-label {
+    font-size: 0.8rem;
+    opacity: 0.75;
+    margin-bottom: 0.3rem;
+}
+
+input[type="text"],input[type="password"] {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #434242;
+    opacity: 0.6;
+    margin-bottom: 0.9rem;
+    width: 90%;
+
+}
+
+.signup-button {
+    background:#9dbf9e;
+    border-radius:4px;
+    padding:15px 137px;
+    color:#ffffff;
+    display: inline-block;
+    font-family: "Roboto";
+    text-align: center;
+    font-weight: 400;
+    border: none;
+    cursor: pointer;
+}
+
+.signup-button:hover {
+    opacity: 0.9;
+}
