@@ -30,6 +30,7 @@ body {
 .right-side {
     grid-area: 1 / 2 / 2 / 3;
     background-color: #9DBF9E;
+    
 }
 
 .leftside-content {
@@ -135,4 +136,35 @@ input[type="text"],input[type="password"] {
 
 .google-icon {
     background-color: #DB4437;
+}
+
+.right-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40%;
+}
+
+.fa-hippo {
+    font-size: 3rem;
+    margin: 0.5rem;
+}
+
+.right-content > p {
+    font-size: 0.7rem;
+    color: white;
+    margin: 0.5rem;
+    font-weight: 400;
+}
+
+.signin-button {
+    background-color: #9DBF9E;
+    border: 0;
+    border: solid 0.5px white;
+    color: white;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 0.7rem;
+    padding: 0.2rem 0.9rem;
+    margin: 0.5rem;
 }
